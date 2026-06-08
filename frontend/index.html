@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="game-panel">
+        <div class="header">
+          <h1>Snake Game</h1>
+          <p>Use arrow keys or WASD to move.</p>
+        </div>
+
+        <div class="game-wrapper">
+          <canvas id="gameCanvas" width="400" height="400"></canvas>
+          <aside class="score-board">
+            <div class="score-item">
+              <span>Score</span>
+              <strong id="scoreValue">0</strong>
+            </div>
+            <div class="score-item">
+              <span>Speed</span>
+              <strong id="speedValue">5</strong>
+            </div>
+            <button id="restartBtn">Restart Game</button>
+          </aside>
+        </div>
+
+        <div class="highscores-card">
+          <h2>High Scores</h2>
+          <ol id="highscoreList"></ol>
+        </div>
+      </section>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
