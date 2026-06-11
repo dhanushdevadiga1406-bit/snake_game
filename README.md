@@ -18,7 +18,6 @@ A simple Snake game with a separate backend and frontend.
    ```bash
    npm start
    ```
-4. Open `http://localhost:3000` in your browser.
 
 ## Controls
 
@@ -28,3 +27,4 @@ A simple Snake game with a separate backend and frontend.
 ## Notes
 
 The backend stores high scores in memory. If the server restarts, scores reset.
+open http://localhost:3000 in your browser
